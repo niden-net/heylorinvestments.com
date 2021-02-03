@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+{% include head.html %}
+
+<body class="is-boxed has-animations">
+<div class="body-wrap boxed-container">
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header-inner">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero text-light text-center">
+            <div class="container-sm">
+                <div class="hero-inner">
+                    <h1 class="hero-title h2-mobile mt-0 is-revealing">
+                        {{ site.data.settings.title }}
+                    </h1>
+                    <p class="hero-paragraph is-revealing">
+                        Our site is currently under construction. In the
+                        meantime you may contact us at
+                        <a href="mailto:{{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
+                    </p>
+                    <p class="hero-cta is-revealing">
+                        <a class="button button-secondary button-shadow"
+                           href="mailto:{{ site.data.settings.email }}">
+                                Contact Us
+                        </a>
+                    </p>
+                    <div class="hero-media text-center">
+                        <img style="max-height: 400px; display: block; margin: auto"
+                             src="/assets/images/heylor-investments.jpg"
+                             alt="{{ site.data.settings.title }}"
+                             title="{{ site.data.settings.title }}" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer-inner">
+                <div class="brand footer-brand">
+                </div>
+                <ul class="footer-links list-reset">
+                    <li>
+                        <a href="mailto:{{ site.data.settings.email }}">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="/assets/js/main.min.js"></script>
+</body>
