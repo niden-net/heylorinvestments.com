@@ -1639,7 +1639,7 @@ main {
     }
 }
 
-.hero-image {
+.hero-image img {
     max-height: 400px;
     display: block;
     margin: auto
